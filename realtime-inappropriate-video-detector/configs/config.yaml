@@ -1,0 +1,7 @@
+bootstrap_servers: localhost:9092
+topic: test
+interval: 0.0001
+pretrained_fight_detect: /home/duzdao/Desktop/StudySpace/DS200_[BigData]/realtime-inappropriate-video-detector/pretrained_weights/fight_detect.hdfs
+pretrained_blood_detect: /home/duzdao/Desktop/StudySpace/DS200_[BigData]/realtime-inappropriate-video-detector/pretrained_weights/blood_detect.model
+num_frames_to_predict: 120
+assembly_api_key: d3741df9891d4e59b8a17fb0039414ac
